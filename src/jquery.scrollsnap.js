@@ -54,7 +54,6 @@
 
             if (scrollingEl['scroll'+leftOrTop] !== undefined) {
                 // scrollingEl is DOM element (not document)
-                $scrollingEl.css('position', 'relative');
 
                 $scrollingEl.bind('scrollstop', {latency: settings.latency}, function(e) {
 
